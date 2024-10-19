@@ -22,7 +22,7 @@ class Contact extends Component {
 
 	render() {
 		return (
-			<div>
+			<div className='contact'>
 				<p>Contact</p>
 			</div>
 		);

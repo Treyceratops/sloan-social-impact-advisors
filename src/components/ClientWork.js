@@ -22,7 +22,7 @@ class ClientWork extends Component {
 
 	render() {
 		return (
-			<div>
+			<div className='client-works'>
 				<p>Client Work</p>
 			</div>
 		);

@@ -1,3 +1,64 @@
 .App {
   text-align: center;
+  font-family: "Noto Sans Georgian", sans-serif;
+}
+li {
+  text-align: left;
+  list-style-type: square;
+  padding: .5rem;
+}
+.nav-bar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: rgba(16, 47, 100, .8);
+  text-align: right;
+  padding-bottom: 1rem;
+}
+.nav-bar a {
+  color: white;
+  text-decoration: none;
+  padding: 0 2rem 0 2rem;
+  font-family: "Noto Sans Georgian", sans-serif;
+  font-weight: bold;
+}
+.sloan-social-impact-advisors {
+  text-align: left;
+  color: white;
+  padding-left: 1rem;
+  font-family: "Aboreto", system-ui;
+  font-size: 1.5rem;
+  letter-spacing: -.1rem;
+}
+/* .sloan-social-impact-advisors:hover {
+  color: black;
+  transition: 1s;
+} */
+.nav-bar a:hover {
+  color: black;
+  transition: 1s;
+}
+/* .about, .client-works, .contact, .home {
+  margin-top:6rem;
+} */
+.dock {
+  background-image: url("./images/dock.png");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 15rem 0 15rem 0;
+}
+.publications {
+  background-color: #33764E;
+  color: #ECE057;
+  padding: 3rem;
+}
+.publications h3 {
+  color: white;
+}
+li::marker {
+  color: #76CADC;
+}
+.tides {
+  width: 30%;
 }

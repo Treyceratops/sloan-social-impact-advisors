@@ -23,7 +23,10 @@ class NavBar extends Component {
 
 	render() {
 		return (
-			<div>
+			<div className='nav-bar'>
+				<h1 className='sloan-social-impact-advisors'>
+					Sloan Social Impact Advisors
+				</h1>
 				<Link className='nav-home' to='/'>
 					Home
 				</Link>
