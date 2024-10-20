@@ -1,6 +1,8 @@
 .App {
   text-align: center;
   font-family: "Noto Sans Georgian", sans-serif;
+  /* font-size: clamp(.1rem, 2rem, 1rem); */
+    font-size: 18px;
 }
 li {
   text-align: left;
@@ -11,7 +13,8 @@ li {
   position: fixed;
   top: 0;
   width: 100%;
-  background-color: rgba(16, 47, 100, .8);
+  /* background-color: rgba(16, 47, 100, .8); */
+  background-color: rgba(0, 0, 0, .5);
   text-align: right;
   padding-bottom: 1rem;
 }
@@ -29,6 +32,7 @@ li {
   font-family: "Aboreto", system-ui;
   font-size: 1.5rem;
   letter-spacing: -.1rem;
+  word-spacing: .3rem;
 }
 /* .sloan-social-impact-advisors:hover {
   color: black;
@@ -38,27 +42,91 @@ li {
   color: black;
   transition: 1s;
 }
-/* .about, .client-works, .contact, .home {
-  margin-top:6rem;
-} */
-.dock {
+.dock, .about-teacher {
   background-image: url("./images/dock.png");
   background-size: cover;
   background-position: center;
   color: white;
   padding: 15rem 0 15rem 0;
 }
+.dock p, .dock h1, .about-teacher h1 {
+  padding: 0 2rem 0 2rem;
+}
 .publications {
-  background-color: #33764E;
-  color: #ECE057;
+  /* background-color: #33764E; */
+  background-color: #76CADC;
+  color: black;
   padding: 3rem;
 }
 .publications h3 {
   color: white;
+  text-align: left;
+  text-align: justify;
+}
+ul {
+  display: inline-block;
+  width: 40%;
 }
 li::marker {
-  color: #76CADC;
+  color: #277053;
 }
 .tides {
   width: 30%;
+}
+.about {
+  background-color: #030E10;
+  color: white;
+}
+.about-teacher {
+  background-image: url("./images/about-teacher.png");
+}
+.bio-downloads {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-top: 3rem;
+}
+.bio-downloads a {
+  color: white;
+}
+.bio {
+  display: flex;
+  padding: 4rem;
+  gap: 5rem;
+}
+.bio p::first-letter {
+
+  font-size: 1.5em;
+
+}
+.bio-pic {
+  width: 15%;
+}
+.download-links {
+  display: flex;
+  align-items: center;
+}
+.download-links a:hover {
+  text-decoration: none;
+  transition: 1s;
+}
+@media screen and (max-width: 800px) {
+  a {
+    font-size: 2vw;
+  }
+  h1, h3 {
+    font-size: 5vw;
+  }
+  h3 {
+    font-size: 3vw;
+  }
+  p, li {
+    font-size: 2vw;
+  }
+  .bio {
+    display: block;
+  }
+  ul {
+    width: 95%;
+  }
 }

@@ -36,39 +36,44 @@ class Home extends Component {
 					</p>
 				</div>
 				<div className='publications'>
-					<h3>Areas of expertise include:</h3>
-					<ul>
-						<li>
-							Develop or refresh social impact programs, coordinate
-							philanthropic multi-funder initiatives, and create innovative
-							programmatic pilots;
-						</li>
-						<li>
-							Conduct strategic planning, theory of change, mission/vision, and
-							measuring & evaluation process assessments and provide
-							recommendations to enhance effectiveness;
-						</li>
-						<li>
-							Design or restructure grant/equity/debt fundraising programs and
-							teams to increase donor/investor engagement and support. Manage
-							complex nonprofit mergers and acquisitions;
-						</li>
-						<li>
-							Create or reboot corporate social impact programs, especially
-							within a Pledge 1% or ESG frame, including grant making, employee
-							volunteering, and product marketing to nonprofit customers;
-						</li>
-						<li>
-							Provide executive, leadership team, and/or board of directors
-							coaching and facilitation. Support and lead effective team
-							retreats and strategic gatherings;
-						</li>
-						<li>
-							Assume temporary/transitional executive leadership roles in
-							nonprofit, foundation, or corporate social impact teams.
-						</li>
-					</ul>
-					<h3>Social Impact Publications by Alex Sloan:</h3>
+					<h3>Areas of expertise include</h3>
+					<div>
+						<ul>
+							<li>
+								Develop or refresh social impact programs, coordinate
+								philanthropic multi-funder initiatives, and create innovative
+								programmatic pilots;
+							</li>
+							<li>
+								Conduct strategic planning, theory of change, mission/vision,
+								and measuring & evaluation process assessments and provide
+								recommendations to enhance effectiveness;
+							</li>
+							<li>
+								Design or restructure grant/equity/debt fundraising programs and
+								teams to increase donor/investor engagement and support. Manage
+								complex nonprofit mergers and acquisitions;
+							</li>
+						</ul>
+						<ul>
+							<li>
+								Create or reboot corporate social impact programs, especially
+								within a Pledge 1% or ESG frame, including grant making,
+								employee volunteering, and product marketing to nonprofit
+								customers;
+							</li>
+							<li>
+								Provide executive, leadership team, and/or board of directors
+								coaching and facilitation. Support and lead effective team
+								retreats and strategic gatherings;
+							</li>
+							<li>
+								Assume temporary/transitional executive leadership roles in
+								nonprofit, foundation, or corporate social impact teams.
+							</li>
+						</ul>
+					</div>
+					<h3>Social Impact Publications by Alex Sloan</h3>
 					<img className='tides' src={TidesImage} alt='tides' />
 					<img className='tides' src={TidesText} alt='tides' />
 				</div>
