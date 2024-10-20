@@ -48,7 +48,7 @@ class About extends Component {
 				</div>
 				<div className='bio'>
 					<div className='bio-text'>
-						<p>
+						<p className='first-letter'>
 							Alex has spent three decades advising, investing in, leading, and
 							successfully growing entrepreneurial for-profit and nonprofit
 							organizations to achieve financial and/or social impact. Alex has
@@ -61,6 +61,7 @@ class About extends Component {
 							and/or board member to dozens of leadership teams to drive
 							outcomes.
 						</p>
+						<p>◽</p>
 						<p>
 							Alex has demonstrated a lifelong commitment to advancing
 							leadership skills and opportunities for adults working in
@@ -74,6 +75,7 @@ class About extends Component {
 							compelling leadership and career-oriented experiences to over
 							20,000 high school and college students annually in 12 cities.
 						</p>
+						<p>◽</p>
 						<p>
 							Alex has served as founding Chairman and President of the
 							Excelerate Foundation (and its predecessor nonprofit organization,
@@ -86,6 +88,9 @@ class About extends Component {
 							advocating for LGBTQ+ causes, especially for the transgender
 							community.
 						</p>
+						<p>◽</p>
+					</div>
+					<div className='bio-text bio-text2'>
 						<p>
 							From 2019-2023, Alex served in several corporate social impact
 							leadership roles at leading identity security software companies
@@ -99,8 +104,7 @@ class About extends Component {
 							licenses of critical security software to many nonprofit
 							organizations globally.
 						</p>
-					</div>
-					<div className='bio-text'>
+						<p>◽</p>
 						<p>
 							Prior to those corporate social impact roles, Alex served as Vice
 							President, Strategic Partnerships & Communications at Tides, a
@@ -115,6 +119,7 @@ class About extends Component {
 							leading its signature Skoll Awards for Social Entrepreneurship
 							program.
 						</p>
+						<p>◽</p>
 						<p>
 							Prior to shifting to social impact work full time, Alex spent 18
 							years as a venture capitalist, investing in high growth companies
@@ -125,11 +130,13 @@ class About extends Component {
 							first venture funds in Vietnam, The Vietnam Fund Management
 							Company, based in Hong Kong and Ho Chi Minh City.{' '}
 						</p>
+						<p>◽</p>
 						<p>
 							Alex began his career as a Presidential appointee serving as Aide
 							to the Administrator at the US Agency for International
 							Development.
 						</p>
+						<p>◽</p>
 						<p>
 							Alex has served on numerous nonprofit boards and committees
 							including EYElliance, Grass Roots Gay Rights Foundation, SF AIDS
@@ -138,6 +145,7 @@ class About extends Component {
 							industry panels on social impact financing, social
 							entrepreneurship, and venture capital.
 						</p>
+						<p>◽</p>
 						<p>
 							Alex earned a B.A. degree in International Relations and Asian
 							Studies from Tulane University, studied at the Chinese University

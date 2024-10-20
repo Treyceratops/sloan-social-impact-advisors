@@ -1,7 +1,6 @@
 .App {
   text-align: center;
   font-family: "Noto Sans Georgian", sans-serif;
-  /* font-size: clamp(.1rem, 2rem, 1rem); */
     font-size: 18px;
 }
 li {
@@ -13,10 +12,10 @@ li {
   position: fixed;
   top: 0;
   width: 100%;
-  /* background-color: rgba(16, 47, 100, .8); */
   background-color: rgba(0, 0, 0, .5);
   text-align: right;
   padding-bottom: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 .nav-bar a {
   color: white;
@@ -34,16 +33,21 @@ li {
   letter-spacing: -.1rem;
   word-spacing: .3rem;
 }
-/* .sloan-social-impact-advisors:hover {
-  color: black;
-  transition: 1s;
-} */
+.sloan-social-impact-advisors:hover {
+  animation: flash;
+  animation-duration: 6s;
+}
 .nav-bar a:hover {
-  color: black;
+  color: grey;
   transition: 1s;
 }
-.dock, .about-teacher {
+.nav-bar a:focus {
+  color: grey;
+}
+.dock {
   background-image: url("./images/dock.png");
+}
+.dock, .about-teacher, .group {
   background-size: cover;
   background-position: center;
   color: white;
@@ -52,9 +56,16 @@ li {
 .dock p, .dock h1, .about-teacher h1 {
   padding: 0 2rem 0 2rem;
 }
+.dock h1, .about h1, .group h1 {
+  animation: fadeIn;
+  animation-duration: 5s;
+}
+.dock p {
+  animation: fadeIn;
+  animation-duration: 10s;
+}
 .publications {
-  /* background-color: #33764E; */
-  background-color: #76CADC;
+  background-color: rgb(160, 210, 219);
   color: black;
   padding: 3rem;
 }
@@ -68,10 +79,11 @@ ul {
   width: 40%;
 }
 li::marker {
-  color: #277053;
+  content: "◽";
 }
 .tides {
   width: 30%;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 .about {
   background-color: #030E10;
@@ -94,13 +106,16 @@ li::marker {
   padding: 4rem;
   gap: 5rem;
 }
-.bio p::first-letter {
-
-  font-size: 1.5em;
-
+.first-letter::first-letter {
+  font-size: 3em;
 }
 .bio-pic {
   width: 15%;
+  border-radius: 2rem;
+  transition: 6s;
+}
+.bio-pic:hover {
+  filter: grayscale(100%);
 }
 .download-links {
   display: flex;
@@ -108,7 +123,38 @@ li::marker {
 }
 .download-links a:hover {
   text-decoration: none;
-  transition: 1s;
+}
+.bio-text2{
+  padding-top: 10rem;
+}
+.group {
+  background-image: url("./images//mountain.jpg");
+}
+.bold {
+  font-weight: bold;
+}
+.italy {
+  font-style: italic;
+}
+.clients {
+  padding-top: 2rem;
+  display: flex;
+  /* flex-direction: column; */
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: space-around;
+  gap: 2rem;
+}
+.client {
+  border-bottom: 1px solid black;
+  width: 90%;
+}
+.clients img {
+  width: 18rem;
+  transition: 3s;
+}
+.clients img:hover {
+      filter: saturate(6);
 }
 @media screen and (max-width: 800px) {
   a {
@@ -125,6 +171,9 @@ li::marker {
   }
   .bio {
     display: block;
+  }
+  .bio-text2 {
+    padding-top: 0;
   }
   ul {
     width: 95%;
