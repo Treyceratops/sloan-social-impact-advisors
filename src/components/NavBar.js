@@ -36,7 +36,7 @@ class NavBar extends Component {
 				<Link className='nav-client-work' to='/client-work'>
 					Client Work
 				</Link>
-				<Link className='nav-about' to='/contact'>
+				<Link className='nav-contact' to='/contact'>
 					Contact
 				</Link>
 			</div>

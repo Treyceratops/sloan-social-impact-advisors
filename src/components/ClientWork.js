@@ -26,6 +26,7 @@ class ClientWork extends Component {
 	render() {
 		return (
 			<div className='client-works'>
+				<style>{'.nav-client-work { color: grey; }'}</style>
 				<div className='group'>
 					<h1>“Partnering with You to Create Positive Change”</h1>
 				</div>

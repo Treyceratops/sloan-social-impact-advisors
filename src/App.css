@@ -12,17 +12,21 @@ li {
   position: fixed;
   top: 0;
   width: 100%;
-  background-color: rgba(0, 0, 0, .5);
+  /* background-color: rgba(0, 0, 0, .5); */
+  background-color: rgba(0, 0, 0, .6);
   text-align: right;
   padding-bottom: 1rem;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 .nav-bar a {
-  color: white;
+  /* color: white; */
   text-decoration: none;
   padding: 0 2rem 0 2rem;
   font-family: "Noto Sans Georgian", sans-serif;
   font-weight: bold;
+}
+a {
+  color: white;
 }
 .sloan-social-impact-advisors {
   text-align: left;
@@ -33,19 +37,12 @@ li {
   letter-spacing: -.1rem;
   word-spacing: .3rem;
 }
-.sloan-social-impact-advisors:hover {
-  animation: flash;
-  animation-duration: 6s;
-}
 .nav-bar a:hover {
   color: grey;
   transition: 1s;
 }
-.nav-bar a:focus {
-  color: grey;
-}
 .dock {
-  background-image: url("./images/dock.png");
+  background-image: url("./images/about-teacher.png");
 }
 .dock, .about-teacher, .group {
   background-size: cover;
@@ -65,7 +62,7 @@ li {
   animation-duration: 10s;
 }
 .publications {
-  background-color: rgb(160, 210, 219);
+  background-color: #76CADC;
   color: black;
   padding: 3rem;
 }
@@ -82,21 +79,21 @@ li::marker {
   content: "◽";
 }
 .tides {
-  width: 30%;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  width: 18%;
+  /* box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; */
+  padding: 1rem;
 }
 .about {
   background-color: #030E10;
   color: white;
 }
 .about-teacher {
-  background-image: url("./images/about-teacher.png");
+  /* background-image: url("./images/dock.png"); */
+  background-image: url("./images/client-work.png");
 }
 .bio-downloads {
   display: flex;
-  align-items: center;
   justify-content: space-evenly;
-  padding-top: 3rem;
 }
 .bio-downloads a {
   color: white;
@@ -110,12 +107,16 @@ li::marker {
   font-size: 3em;
 }
 .bio-pic {
-  width: 15%;
-  border-radius: 2rem;
+  width: 20%;
+  /* border-radius: 2rem; */
   transition: 6s;
+  padding: 0 2rem 0 2rem;
 }
 .bio-pic:hover {
   filter: grayscale(100%);
+}
+.bio-pic1, .bio-pic2 {
+  border-radius: 4rem;
 }
 .download-links {
   display: flex;
@@ -177,5 +178,8 @@ li::marker {
   }
   ul {
     width: 95%;
+  }
+  .tides {
+    width: 30%;
   }
 }

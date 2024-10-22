@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import BioPic from '../images/alexwill_150.jpg';
 import BioPicLowRes from '../images/alexwill_150_lowres.jpeg';
+import BioPic2 from '../images/Alex Sloan 22 A.jpg';
+import BioPic2LowRes from '../images/11zon_resized.jpeg';
 import AlexBio from '../images/alex-bio.pdf';
 
 class About extends Component {
@@ -26,25 +28,9 @@ class About extends Component {
 	render() {
 		return (
 			<div className='about'>
+				<style>{'.nav-about { color: grey; }'}</style>
 				<div className='about-teacher'>
 					<h1>“Turning Good Ideas into Great Outcomes”</h1>
-				</div>
-				<div className='bio-downloads'>
-					<img className='bio-pic' src={BioPic} alt='bio-pic' />
-					<div>
-						<h3>Downloads</h3>
-						<div className='download-links'>
-							<a href={AlexBio}>PDF Bio</a>
-							<p>|</p>
-							<a href={BioPic} download>
-								High Res Photo
-							</a>
-							<p>|</p>
-							<a href={BioPicLowRes} download>
-								Low Res Photo
-							</a>
-						</div>
-					</div>
 				</div>
 				<div className='bio'>
 					<div className='bio-text'>
@@ -77,26 +63,28 @@ class About extends Component {
 						</p>
 						<p>◽</p>
 						<p>
-							Alex has served as founding Chairman and President of the
-							Excelerate Foundation (and its predecessor nonprofit organization,
-							National Youth Leadership Forum) since 1991. Excelerate’s
-							community grants support innovative nonprofit organizations that
-							drive positive change in the areas of social entrepreneurship,
-							health, the environment, and community development. Alex
-							spearheads the foundation’s strategic direction, policies, and
-							endowment investments. He leads the foundation’s grant program
-							advocating for LGBTQ+ causes, especially for the transgender
-							community.
+							Alex has served as founding Chairman and President of the{' '}
+							<a href='http://excelerate-foundation.org/about.php'>
+								Excelerate Foundation
+							</a>{' '}
+							(and its predecessor nonprofit organization, National Youth
+							Leadership Forum) since 1991. Excelerate’s community grants
+							support innovative nonprofit organizations that drive positive
+							change in the areas of social entrepreneurship, health, the
+							environment, and community development. Alex spearheads the
+							foundation’s strategic direction, policies, and endowment
+							investments. He leads the foundation’s grant program advocating
+							for LGBTQ+ causes, especially for the transgender community.
 						</p>
 						<p>◽</p>
-					</div>
-					<div className='bio-text bio-text2'>
 						<p>
 							From 2019-2023, Alex served in several corporate social impact
-							leadership roles at leading identity security software companies
-							Okta, Auth0 (acquired by Okta), and Lookout. Alex was the founding
-							director of Auth0’s social impact arm, Auth0.org, where he
-							developed its philanthropic approach, employee charitable
+							leadership roles at leading identity security software companies{' '}
+							<a href='https://www.okta.com/okta-for-good/'>Okta</a>,{' '}
+							<a href='https://auth0.com/'>Auth0</a> (acquired by Okta), and{' '}
+							<a href='https://www.lookout.com/'>Lookout</a>. Alex was the
+							founding director of Auth0’s social impact arm, Auth0.org, where
+							he developed its philanthropic approach, employee charitable
 							volunteering program, and product marketing and sales strategy to
 							nonprofit organizations. Alex then deployed over $5 million in
 							grants to dozens of nonprofits, thousands of hours of employee
@@ -105,17 +93,20 @@ class About extends Component {
 							organizations globally.
 						</p>
 						<p>◽</p>
+					</div>
+					<div className='bio-text bio-text2'>
 						<p>
 							Prior to those corporate social impact roles, Alex served as Vice
-							President, Strategic Partnerships & Communications at Tides, a
-							global grantmaking and fiscal sponsorship provider focused on
-							shared prosperity and social justice. Alex served on the executive
-							team and created Tides’ impact investing services and external
-							outreach and communications teams, which successfully increased
-							and diversified Tides’ client base and charitable assets under
-							management. Alex led a major brand and strategic messaging
-							overhaul for Tides. Alex was previously Director of Innovation
-							Investments and Portfolio Director at the Skoll Foundation,
+							President, Strategic Partnerships & Communications at{' '}
+							<a href='https://www.tides.org/'>Tides</a>, a global grantmaking
+							and fiscal sponsorship provider focused on shared prosperity and
+							social justice. Alex served on the executive team and created
+							Tides’ impact investing services and external outreach and
+							communications teams, which successfully increased and diversified
+							Tides’ client base and charitable assets under management. Alex
+							led a major brand and strategic messaging overhaul for Tides. Alex
+							was previously Director of Innovation Investments and Portfolio
+							Director at the <a href='https://skoll.org/'>Skoll Foundation</a>,
 							leading its signature Skoll Awards for Social Entrepreneurship
 							program.
 						</p>
@@ -151,6 +142,34 @@ class About extends Component {
 							Studies from Tulane University, studied at the Chinese University
 							of Hong Kong, and holds an MBA from Cornell University.
 						</p>
+					</div>
+				</div>
+				<div>
+					<div>
+						<img className='bio-pic bio-pic1' src={BioPic} alt='bio-pic' />
+						<img className='bio-pic bio-pic2' src={BioPic2} alt='bio-pic2' />
+					</div>
+					<div className='downloads'>
+						<h3>Downloads</h3>
+						<div className='download-links bio-downloads'>
+							<a href={AlexBio}>PDF Bio</a>
+							<p>|</p>
+							<a href={BioPic} download>
+								High Res Photo 1
+							</a>
+							<p>|</p>
+							<a href={BioPicLowRes} download>
+								Low Res Photo 1
+							</a>
+							<p>|</p>
+							<a href={BioPic2} download>
+								High Res Photo 2
+							</a>
+							<p>|</p>
+							<a href={BioPic2LowRes} download>
+								Low Res Photo 2
+							</a>
+						</div>
 					</div>
 				</div>
 			</div>

@@ -25,6 +25,7 @@ class Home extends Component {
 	render() {
 		return (
 			<div className='home'>
+				<style>{'.nav-home { color: grey; }'}</style>
 				<div className='dock'>
 					<h1>“Expertise in Action: Advancing Social Good”</h1>
 					<p>

@@ -23,6 +23,7 @@ class Contact extends Component {
 	render() {
 		return (
 			<div className='contact'>
+				<style>{'.nav-contact { color: grey; }'}</style>
 				<p>Contact</p>
 			</div>
 		);
