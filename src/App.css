@@ -1,114 +1,108 @@
 .App {
   text-align: center;
   font-family: "Noto Sans Georgian", sans-serif;
-    font-size: 18px;
-}
-li {
-  text-align: left;
-  list-style-type: square;
-  padding: .5rem;
+  font-size: 18px;
 }
 .nav-bar {
   position: fixed;
   top: 0;
   width: 100%;
-  /* background-color: rgba(0, 0, 0, .5); */
-  background-color: rgba(0, 0, 0, .6);
-  text-align: right;
-  padding-bottom: 1rem;
+  background-color: black;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  opacity: .7;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.nav-bar.space-between {
+  justify-content: space-around;
 }
 .nav-bar a {
-  /* color: white; */
   text-decoration: none;
-  padding: 0 2rem 0 2rem;
   font-family: "Noto Sans Georgian", sans-serif;
   font-weight: bold;
+  /* border: 3px solid white; */
+  padding: 1rem;
 }
 a {
   color: white;
 }
-.sloan-social-impact-advisors {
-  text-align: left;
-  color: white;
-  padding-left: 1rem;
-  font-family: "Aboreto", system-ui;
-  font-size: 1.5rem;
-  letter-spacing: -.1rem;
-  word-spacing: .3rem;
+.about a {
+  color: black;
+}
+.logo {
+  width: 20%;
+  float: left;
+  max-width: 15rem;
 }
 .nav-bar a:hover {
   color: grey;
+  border-color: grey;
   transition: 1s;
 }
-.dock {
+.home-image {
   background-image: url("./images/about-teacher.png");
 }
-.dock, .about-teacher, .group {
+.home-image, .about-image, .client-work-image {
   background-size: cover;
   background-position: center;
   color: white;
   padding: 15rem 0 15rem 0;
 }
-.dock p, .dock h1, .about-teacher h1 {
+.home-image p, .home-image h1, .about-image h1 {
   padding: 0 2rem 0 2rem;
 }
-.dock h1, .about h1, .group h1 {
+.home-image h1, .about h1, .client-work-image h1 {
   animation: fadeIn;
-  animation-duration: 5s;
+  animation-duration: 4s;
 }
-.dock p {
+.p1 {
   animation: fadeIn;
-  animation-duration: 10s;
+  animation-duration: 6s;
+}
+.p2 {
+  animation: fadeIn;
+  animation-duration: 9s;
+}
+.p3 {
+  animation: fadeIn;
+  animation-duration: 13s;
 }
 .publications {
-  background-color: #76CADC;
-  color: black;
   padding: 3rem;
-}
-.publications h3 {
-  color: white;
-  text-align: left;
-  text-align: justify;
-}
-ul {
-  display: inline-block;
-  width: 40%;
-}
-li::marker {
-  content: "◽";
 }
 .tides {
   width: 18%;
-  /* box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; */
   padding: 1rem;
 }
-.about {
-  background-color: #030E10;
-  color: white;
-}
-.about-teacher {
-  /* background-image: url("./images/dock.png"); */
+.about-image {
   background-image: url("./images/client-work.png");
+}
+.home h3, .about h3 {
+  text-align: left;
+}
+.home h5 {
+  text-align: left;
+  padding-left: 2rem;
+}
+.home p, .about p {
+  text-align: left;
+  padding: 0 4rem 0 4rem;
 }
 .bio-downloads {
   display: flex;
   justify-content: space-evenly;
 }
 .bio-downloads a {
-  color: white;
+  color: black;
 }
 .bio {
   display: flex;
   padding: 4rem;
   gap: 5rem;
 }
-.first-letter::first-letter {
-  font-size: 3em;
-}
 .bio-pic {
   width: 20%;
-  /* border-radius: 2rem; */
   transition: 6s;
   padding: 0 2rem 0 2rem;
 }
@@ -128,8 +122,8 @@ li::marker {
 .bio-text2{
   padding-top: 10rem;
 }
-.group {
-  background-image: url("./images//mountain.jpg");
+.client-work-image {
+  background-image: url("./images/bridge-waves.jpg");
 }
 .bold {
   font-weight: bold;
@@ -140,7 +134,6 @@ li::marker {
 .clients {
   padding-top: 2rem;
   display: flex;
-  /* flex-direction: column; */
   flex-wrap: wrap;
   justify-content: center;
   align-content: space-around;
@@ -150,14 +143,30 @@ li::marker {
   border-bottom: 1px solid black;
   width: 90%;
 }
-.clients img {
+.clients img,  .bio-text img{
   width: 18rem;
   transition: 3s;
 }
 .clients img:hover {
       filter: saturate(6);
 }
+.home-image p, .about-image p, .client-work-image p {
+  text-align: center;
+}
 @media screen and (max-width: 800px) {
+  .nav-bar a {
+    /* font-size: 18px; */
+    padding: .5rem;
+  }
+  .logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 4rem;
+  }
+  .nav-bar.space-between {
+    flex-direction: column;
+  }
   a {
     font-size: 2vw;
   }

@@ -27,8 +27,8 @@ class ClientWork extends Component {
 		return (
 			<div className='client-works'>
 				<style>{'.nav-client-work { color: grey; }'}</style>
-				<div className='group'>
-					<h1>“Partnering with You to Create Positive Change”</h1>
+				<div className='client-work-image'>
+					<h1>Partnering with You to Create Positive Change</h1>
 				</div>
 				<div className='clients'>
 					<div className='client'>
@@ -46,7 +46,7 @@ class ClientWork extends Component {
 							key partnerships to advance the program. SSIA is also supporting a
 							major brand and strategic refresh for the organization.
 						</p>
-						<p>◼</p>
+						<p>◽</p>
 						<p className='bold'>Quote from John Cunningham, CEO:</p>
 						<p className='italy'>
 							“After Alex had served for years as a close friend and supporter
@@ -79,7 +79,7 @@ class ClientWork extends Component {
 							provided strategic recommendations to the leadership team. Alex
 							facilitated several highly productive executive sessions.
 						</p>
-						<p>◼</p>
+						<p>◽</p>
 						<p className='bold'>
 							Quote from client Joel Beck-Coon, General Counsel, Humanity
 							United:

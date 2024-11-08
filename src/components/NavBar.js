@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
+import Logo from '../images/sloan-logo.png';
 
 class NavBar extends Component {
 	constructor(props) {
@@ -23,22 +24,27 @@ class NavBar extends Component {
 
 	render() {
 		return (
-			<div className='nav-bar'>
-				<h1 className='sloan-social-impact-advisors'>
+			<div className='nav-bar space-between'>
+				{/* <h1 className='sloan-social-impact-advisors'>
 					Sloan Social Impact Advisors
-				</h1>
-				<Link className='nav-home' to='/'>
+				</h1> */}
+				<img className='logo' src={Logo} alt='sloan-social-impact-logo' />
+				<Link className='nav-home nav-link' to='/'>
 					Home
 				</Link>
-				<Link className='nav-about' to='/about'>
+				<Link className='nav-about nav-link' to='/about'>
 					About
 				</Link>
-				<Link className='nav-client-work' to='/client-work'>
+				<Link className='nav-client-work nav-link' to='/client-work'>
 					Client Work
 				</Link>
-				<Link className='nav-contact' to='/contact'>
+				<a
+					className='nav-contact nav-link'
+					href='mailto:alex@sloansocialimpact.com'
+					subject='HTML link'
+					target='_blank'>
 					Contact
-				</Link>
+				</a>
 			</div>
 		);
 	}

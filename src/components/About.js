@@ -1,5 +1,11 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
+import Exclerate from '../images/excelerate-logo.png';
+import Okta from '../images/okta-logo.png';
+import AuthO from '../images/auth-o-logo.png';
+import Tides from '../images/tides-logo.png';
+import USAid from '../images/us-aid-logo.png';
+import Skoll from '../images/skoll-logo.png';
 import BioPic from '../images/alexwill_150.jpg';
 import BioPicLowRes from '../images/alexwill_150_lowres.jpeg';
 import BioPic2 from '../images/Alex Sloan 22 A.jpg';
@@ -29,41 +35,60 @@ class About extends Component {
 		return (
 			<div className='about'>
 				<style>{'.nav-about { color: grey; }'}</style>
-				<div className='about-teacher'>
-					<h1>“Turning Good Ideas into Great Outcomes”</h1>
+				<div className='about-image'>
+					<h1>Turning Good Ideas into Great Outcomes</h1>
+					<p className='p1'>
+						SSIA leverages three decades of experience in nonprofit leadership,
+						foundation management, impact investing, and venture capital by
+						founder J. Alexander Sloan and his network of consulting and
+						philanthropic partners nationally and globally.
+					</p>
+					<p className='p2'>
+						Alex has spent his career advising, investing in, leading, and
+						successfully growing entrepreneurial for-profit and nonprofit
+						organizations to achieve financial and/or social impact. Alex has
+						held leadership roles across the social change landscape including
+						in venture capital, corporate social impact, private foundations,
+						global public charities, nonprofit organizations, and US government
+						agencies. Alex has worked on and led teams that have raised and
+						deployed over $1 billion in investment and philanthropic capital. He
+						has worked closely as advisor, funder, and/or board member to dozens
+						of leadership teams to drive outcomes.{' '}
+					</p>
 				</div>
 				<div className='bio'>
 					<div className='bio-text'>
-						<p className='first-letter'>
-							Alex has spent three decades advising, investing in, leading, and
-							successfully growing entrepreneurial for-profit and nonprofit
-							organizations to achieve financial and/or social impact. Alex has
-							held leadership roles across the social change landscape including
-							in venture capital, corporate social impact, private foundations,
-							global public charities, nonprofit organizations, and US
-							government agencies. Alex has worked on and led teams that have
-							raised and deployed over $1 billion in investment and
-							philanthropic capital. He has worked closely as advisor, funder,
-							and/or board member to dozens of leadership teams to drive
-							outcomes.
-						</p>
-						<p>◽</p>
+						<a href='https://skoll.org/'>
+							<img src={Skoll} alt='skoll-logo' />
+						</a>
+						<h3>Leadership Development:</h3>
 						<p>
-							Alex has demonstrated a lifelong commitment to advancing
+							◽ Alex has demonstrated a lifelong commitment to advancing
 							leadership skills and opportunities for adults working in
 							high-growth companies and social change organizations and for
-							young people seeking exceptional career paths. Alex’s work as
-							Director of the Skoll Foundation’s Skoll Award for Social
-							Entrepreneurship expanded the reach, diversity, and impact of this
-							globally recognized leadership award program. Alex was also part
-							of the founding team and served for over 15 years as president and
-							board chairman of National Youth Leadership Forum, which offered
-							compelling leadership and career-oriented experiences to over
-							20,000 high school and college students annually in 12 cities.
+							young people seeking exceptional career paths.{' '}
 						</p>
-						<p>◽</p>
 						<p>
-							Alex has served as founding Chairman and President of the{' '}
+							◽ Alex’s work as Director of the{' '}
+							<a href='https://skoll.org/'>Skoll Foundation’s</a> Skoll Award
+							for Social Entrepreneurship expanded the reach, diversity, and
+							impact of this globally recognized leadership award program. He
+							was also part of the founding team and served for over 15 years as
+							president and board chairman of National Youth Leadership Forum,
+							which offered compelling leadership and career-oriented
+							experiences to over 20,000 high school and college students
+							annually in 12 cities.
+						</p>
+						<p>
+							◽ Alex has served many times as coach, mentor, and advisor to
+							senior executives and next generation leaders.
+						</p>
+						<a href='http://excelerate-foundation.org/about.php'>
+							<img src={Exclerate} alt='excelerate-logo' />
+						</a>
+						<h3>Foundation Leadership:</h3>
+						<p>
+							◽ Alex has served as founding Chairman and President of the{' '}
 							<a href='http://excelerate-foundation.org/about.php'>
 								Excelerate Foundation
 							</a>{' '}
@@ -71,77 +96,77 @@ class About extends Component {
 							Leadership Forum) since 1991. Excelerate’s community grants
 							support innovative nonprofit organizations that drive positive
 							change in the areas of social entrepreneurship, health, the
-							environment, and community development. Alex spearheads the
-							foundation’s strategic direction, policies, and endowment
-							investments. He leads the foundation’s grant program advocating
-							for LGBTQ+ causes, especially for the transgender community.
+							environment, and community development.
 						</p>
-						<p>◽</p>
 						<p>
-							From 2019-2023, Alex served in several corporate social impact
-							leadership roles at leading identity security software companies{' '}
+							◽ Alex spearheads the foundation’s strategic direction, policies,
+							and endowment investments. He leads the foundation’s grant program
+							advocating for LGBTQ+ causes, especially for the transgender
+							community.
+						</p>
+						<a href='https://www.okta.com/okta-for-good/'>
+							<img src={Okta} alt='okta-logo' />
+						</a>
+						<h3>
+							Leadership roles in corporate social Impact, foundation
+							management, and venture capital:
+						</h3>
+						<p>
+							◽ Alex served in several corporate social impact leadership roles
+							at leading identity security software companies{' '}
 							<a href='https://www.okta.com/okta-for-good/'>Okta</a>,{' '}
-							<a href='https://auth0.com/'>Auth0</a> (acquired by Okta), and{' '}
-							<a href='https://www.lookout.com/'>Lookout</a>. Alex was the
-							founding director of Auth0’s social impact arm, Auth0.org, where
-							he developed its philanthropic approach, employee charitable
-							volunteering program, and product marketing and sales strategy to
-							nonprofit organizations. Alex then deployed over $5 million in
-							grants to dozens of nonprofits, thousands of hours of employee
-							volunteer hours to charitable organizations, and discounted
-							licenses of critical security software to many nonprofit
-							organizations globally.
+							<a href='https://auth0.com/'>Auth0</a>
+							(acquired by Okta), and{' '}
+							<a href='https://www.lookout.com/blog/lookout-reimagined'>
+								Lookout
+							</a>
+							. Prior to those corporate social impact roles, Alex served as
+							Vice President of Strategic Partnerships & Communications at
+							Tides, a global grantmaking and fiscal sponsorship provider
+							focused on shared prosperity and social justice.
 						</p>
-						<p>◽</p>
-					</div>
-					<div className='bio-text bio-text2'>
 						<p>
-							Prior to those corporate social impact roles, Alex served as Vice
-							President, Strategic Partnerships & Communications at{' '}
-							<a href='https://www.tides.org/'>Tides</a>, a global grantmaking
-							and fiscal sponsorship provider focused on shared prosperity and
-							social justice. Alex served on the executive team and created
-							Tides’ impact investing services and external outreach and
-							communications teams, which successfully increased and diversified
-							Tides’ client base and charitable assets under management. Alex
-							led a major brand and strategic messaging overhaul for Tides. Alex
-							was previously Director of Innovation Investments and Portfolio
-							Director at the <a href='https://skoll.org/'>Skoll Foundation</a>,
-							leading its signature Skoll Awards for Social Entrepreneurship
-							program.
+							◽ He was Director of Innovation Investments and Portfolio
+							Director at the Skoll Foundation, leading its signature Skoll
+							Awards for Social Entrepreneurship program.
 						</p>
-						<p>◽</p>
 						<p>
-							Prior to shifting to social impact work full time, Alex spent 18
-							years as a venture capitalist, investing in high growth companies
-							from seed stage through IPO/acquisition in a variety of sectors,
-							including Clean Technologies and software and communications
-							services, at leading venture firms Expansion Capital Partners,
-							JPMorgan Partners and Hambrecht & Quist. Alex worked on one of the
-							first venture funds in Vietnam, The Vietnam Fund Management
-							Company, based in Hong Kong and Ho Chi Minh City.{' '}
+							◽ Prior to his work in philanthropy, Alex held leadership roles
+							at several leading venture capital firms in Hong Kong, Vietnam,
+							and Silicon Valley.
 						</p>
-						<p>◽</p>
 						<p>
-							Alex began his career as a Presidential appointee serving as Aide
-							to the Administrator at the US Agency for International
-							Development.
+							◽ Alex began his career as a Presidential appointee serving as
+							Aide to the Administrator at the{' '}
+							<a href='https://www.usaid.gov/'>
+								US Agency for International Development
+							</a>
+							.
 						</p>
-						<p>◽</p>
+						<a href='https://www.usaid.gov/'>
+							<img src={USAid} alt='us-aid-logo' />
+						</a>
+						<h3>Extensive nonprofit board work: </h3>
 						<p>
-							Alex has served on numerous nonprofit boards and committees
+							◽ Alex has served on numerous nonprofit boards and committees
 							including EYElliance, Grass Roots Gay Rights Foundation, SF AIDS
-							Foundation, Horizons Foundation, National AIDS Memorial, and the
-							National Peace Foundation. Alex often lectures and speaks on
-							industry panels on social impact financing, social
-							entrepreneurship, and venture capital.
+							Foundation, Horizons Foundation, and the National Peace
+							Foundation. Alex often lectures and speaks on industry panels on
+							social impact financing, social entrepreneurship, and venture
+							capital.
 						</p>
-						<p>◽</p>
+						<a href='https://nul.org/news/tides-foundation'>
+							<img src={Tides} alt='tides-logo' />
+						</a>
+						<h3>Education: </h3>
 						<p>
-							Alex earned a B.A. degree in International Relations and Asian
+							◽ Alex earned a B.A. degree in International Relations and Asian
 							Studies from Tulane University, studied at the Chinese University
 							of Hong Kong, and holds an MBA from Cornell University.
 						</p>
+						<a href='https://auth0.com/'>
+							<img src={AuthO} alt='auth-o-logo' />
+						</a>
 					</div>
 				</div>
 				<div>
