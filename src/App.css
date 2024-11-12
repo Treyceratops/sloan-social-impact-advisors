@@ -63,16 +63,18 @@ a {
 .p2 {
   animation: fadeIn;
   animation-duration: 9s;
+  padding: 3rem;
 }
 .p3 {
   animation: fadeIn;
   animation-duration: 13s;
 }
 .publications {
-  padding: 3rem;
+  padding: 0 3rem 0 3rem;
 }
 .tides {
-  width: 18%;
+  width: 25%;
+  max-width: 18rem;
   padding: 1rem;
 }
 .about-image {
@@ -81,11 +83,20 @@ a {
 .home h3, .about h3 {
   text-align: left;
 }
+.home h3 {
+  padding: 4rem 0 0 3rem;
+}
 .home h5 {
   text-align: left;
   padding-left: 2rem;
 }
-.home p, .about p {
+.about-image p {
+  padding: 0 4rem 0 4rem;
+}
+.about-p2 {
+  padding: 3rem;
+}
+.publications p, .bio-text p {
   text-align: left;
   padding: 0 4rem 0 4rem;
 }
@@ -143,19 +154,28 @@ a {
   border-bottom: 1px solid black;
   width: 90%;
 }
-.clients img,  .bio-text img{
+.clients img {
   width: 18rem;
-  transition: 3s;
 }
-.clients img:hover {
-      filter: saturate(6);
+.us-aid {
+  border-radius: .5rem;
+}
+.bio-text img {
+  width: 10rem;
 }
 .home-image p, .about-image p, .client-work-image p {
   text-align: center;
 }
+@media screen and (min-width: 800px) {
+  .publications {
+    display: flex;
+  }
+  .tides {
+    padding: 3rem;
+  }
+}
 @media screen and (max-width: 800px) {
   .nav-bar a {
-    /* font-size: 18px; */
     padding: .5rem;
   }
   .logo {

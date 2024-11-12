@@ -41,10 +41,10 @@ class ClientWork extends Component {
 							SSIA is designing a new national social justice leadership award
 							program for the National AIDS Memorial. Alex conducted a deep
 							research project interviewing over 35 stakeholders on the lessons
-							learned from four decades of HIV/AIDS activism. Alex developed a
-							national social justice leadership award program pilot and sourced
-							key partnerships to advance the program. SSIA is also supporting a
-							major brand and strategic refresh for the organization.
+							learned from four decades of HIV/AIDS activism. Alex is developing
+							the pilot program and sourcing key partnerships to advance the
+							program. SSIA is also supporting a major brand and strategic
+							refresh for the organization.
 						</p>
 						<p>◽</p>
 						<p className='bold'>Quote from John Cunningham, CEO:</p>
