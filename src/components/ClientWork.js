@@ -32,11 +32,10 @@ class ClientWork extends Component {
 				</div>
 				<div className='clients'>
 					<div className='client'>
-						{/* <h3>National AIDS Memorial</h3> */}
 						<a href='https://www.aidsmemorial.org/'>
 							<img src={AidsMemorial} alt='national-aids-memorial-logo' />
 						</a>
-						<h6>2023-Ongoing</h6>
+						<h5>Recent Client Work</h5>
 						<p>
 							SSIA is designing a new national social justice leadership award
 							program for the National AIDS Memorial. Alex conducted a deep
@@ -47,29 +46,30 @@ class ClientWork extends Component {
 							refresh for the organization.
 						</p>
 						<p>◽</p>
-						<p className='bold'>Quote from John Cunningham, CEO:</p>
-						<p className='italy'>
-							“After Alex had served for years as a close friend and supporter
-							of the National AIDS Memorial, we asked him to take on a
-							consulting role to design a new national social justice leadership
-							award program. Alex conducted an extensive research project,
-							interviewing dozens of stakeholders to capture the lessons learned
-							from four decades of HIV/AIDS activism. Leveraging this research
-							and his years of experience in leadership education, Alex
-							developed a comprehensive pilot for the award program and
-							successfully sourced key partnerships to drive the initiative
-							forward. Additionally, Alex has been invaluable in supporting a
-							refresh for our organization’s brand and strategic impact
-							positioning. Alex’s leadership, expertise, and dedication have
-							been critical to our progress.” - John
+						<p>
+							<em>
+								“After Alex had served for years as a close friend and supporter
+								of the National AIDS Memorial, we asked him to take on a
+								consulting role to design a new national social justice
+								leadership award program. Alex conducted an extensive research
+								project, interviewing dozens of stakeholders to capture the
+								lessons learned from four decades of HIV/AIDS activism.
+								Leveraging this research and his years of experience in
+								leadership education, Alex developed a comprehensive pilot for
+								the award program and successfully sourced key partnerships to
+								drive the initiative forward. Additionally, Alex has been
+								invaluable in supporting a refresh for our organization’s brand
+								and strategic impact positioning. Alex’s leadership, expertise,
+								and dedication have been critical to our progress.”
+							</em>{' '}
+							- John Cunningham, CEO
 						</p>
 					</div>
 					<div className='client'>
-						{/* <h3>Humanity United</h3> */}
 						<a href='https://humanityunited.org/'>
 							<img src={Humanity} alt='humanity-united-logo' />
 						</a>
-						<h6>2024</h6>
+						<h5>2024</h5>
 						<p>
 							SSIA managed a six-month assignment to help HU assess how to crowd
 							in additional resources to its key social impact areas, Forced
@@ -80,30 +80,28 @@ class ClientWork extends Component {
 							facilitated several highly productive executive sessions.
 						</p>
 						<p>◽</p>
-						<p className='bold'>
-							Quote from client Joel Beck-Coon, General Counsel, Humanity
-							United:
-						</p>
-						<p className='italy'>
-							"Sloan Social Impact Advisors did an outstanding job managing a
-							six-month assignment for us, where Alex played a crucial role in
-							assessing how to attract additional resources to our key portfolio
-							areas. Alex demonstrated exceptional skill and sensitivity in
-							conducting in-depth conversations with over 40 key stakeholders,
-							then weaving the feedback, together with other research, into
-							insightful strategic and tactical recommendations to our
-							leadership team. Alex's depth of experience in the field and
-							thorough and strategic approach greatly contributed to our
-							understanding of our opportunities, and he is a pleasure to work
-							with." - Joel
+						<p>
+							<em>
+								"Sloan Social Impact Advisors did an outstanding job managing a
+								six-month assignment for us, where Alex played a crucial role in
+								assessing how to attract additional resources to our key
+								portfolio areas. Alex demonstrated exceptional skill and
+								sensitivity in conducting in-depth conversations with over 40
+								key stakeholders, then weaving the feedback, together with other
+								research, into insightful strategic and tactical recommendations
+								to our leadership team. Alex's depth of experience in the field
+								and thorough and strategic approach greatly contributed to our
+								understanding of our opportunities, and he is a pleasure to work
+								with."
+							</em>{' '}
+							- Joel Beck-Coon, General Counsel, Humanity United Client
 						</p>
 					</div>
 					<div className='client'>
-						{/* <h3>Lookout Software</h3> */}
 						<a href='https://www.lookout.com/'>
 							<img src={Lookout} alt='lookout-software-logo' />
 						</a>
-						<h6>2020-2021</h6>
+						<h5>2020-2021</h5>
 						<p>
 							Alex was engaged by leading mobile device security software
 							provider Lookout to assess how to reboot Lookout’s stalled

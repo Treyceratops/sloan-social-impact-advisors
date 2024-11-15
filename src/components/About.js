@@ -174,7 +174,7 @@ class About extends Component {
 				</div>
 				<div>
 					<div>
-						<img className='bio-pic bio-pic1' src={BioPic} alt='bio-pic' />
+						{/* <img className='bio-pic bio-pic1' src={BioPic} alt='bio-pic' /> */}
 						<img className='bio-pic bio-pic2' src={BioPic2} alt='bio-pic2' />
 					</div>
 					<div className='downloads'>
@@ -182,14 +182,14 @@ class About extends Component {
 						<div className='download-links bio-downloads'>
 							<a href={AlexBio}>PDF Bio</a>
 							<p>|</p>
-							<a href={BioPic} download>
+							{/* <a href={BioPic} download>
 								High Res Photo 1
 							</a>
 							<p>|</p>
 							<a href={BioPicLowRes} download>
 								Low Res Photo 1
 							</a>
-							<p>|</p>
+							<p>|</p> */}
 							<a href={BioPic2} download>
 								High Res Photo 2
 							</a>

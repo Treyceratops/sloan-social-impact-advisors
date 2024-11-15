@@ -8,7 +8,11 @@
   top: 0;
   width: 100%;
   background-color: black;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12),
+    0 2px 2px rgba(0, 0, 0, 0.12),
+    0 4px 4px rgba(0, 0, 0, 0.12),
+    0 8px 8px rgba(0, 0, 0, 0.12),
+    0 16px 16px rgba(0, 0, 0, 0.12);
   opacity: .7;
   display: flex;
   flex-wrap: wrap;
@@ -48,6 +52,17 @@ a {
   background-position: center;
   color: white;
   padding: 15rem 0 15rem 0;
+  border-bottom-left-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12),
+    0 2px 2px rgba(0, 0, 0, 0.12),
+    0 4px 4px rgba(0, 0, 0, 0.12),
+    0 8px 8px rgba(0, 0, 0, 0.12),
+    0 16px 16px rgba(0, 0, 0, 0.12);
+}
+.about-image {
+  /* padding: 12rem 0 12rem 0; */
+  background-position: top;
 }
 .home-image p, .home-image h1, .about-image h1 {
   padding: 0 2rem 0 2rem;
@@ -63,19 +78,39 @@ a {
 .p2 {
   animation: fadeIn;
   animation-duration: 9s;
-  padding: 3rem;
 }
 .p3 {
   animation: fadeIn;
   animation-duration: 13s;
+  color: #6AABD2;
+  font-size: 1.5rem;
+  padding-top: 2rem;
 }
-.publications {
+.home-intro {
+  padding: 3rem;
+}
+.expertises {
+  background-color: #446FA0;
+  padding: 3rem 0 3rem 0;
+  border-radius: 2rem;
+}
+.expertises h4 {
+  text-align: left;
+  padding-left: 2rem;
+  color: #D6DDE0;
+}
+.expertise {
   padding: 0 3rem 0 3rem;
 }
+.publications {
+  padding: 3rem 0 3rem 0;
+}
+.tides-photos {
+  display: flex;
+}
 .tides {
-  width: 25%;
+  /* width: 25%; */
   max-width: 18rem;
-  padding: 1rem;
 }
 .about-image {
   background-image: url("./images/client-work.png");
@@ -84,21 +119,26 @@ a {
   text-align: left;
 }
 .home h3 {
-  padding: 4rem 0 0 3rem;
+  color: #223C60;
+  padding-left: 1rem;
 }
-.home h5 {
+/* .home h4 {
   text-align: left;
   padding-left: 2rem;
-}
+  color: #D6DDE0;
+} */
 .about-image p {
   padding: 0 4rem 0 4rem;
 }
 .about-p2 {
   padding: 3rem;
 }
-.publications p, .bio-text p {
+.expertise p, .bio-text p {
   text-align: left;
   padding: 0 4rem 0 4rem;
+}
+.bullet {
+  text-align: center;
 }
 .bio-downloads {
   display: flex;
@@ -120,8 +160,11 @@ a {
 .bio-pic:hover {
   filter: grayscale(100%);
 }
-.bio-pic1, .bio-pic2 {
+.bio-pic2 {
   border-radius: 4rem;
+}
+.downloads h3 {
+  padding-left: 4rem;
 }
 .download-links {
   display: flex;
@@ -136,12 +179,6 @@ a {
 .client-work-image {
   background-image: url("./images/bridge-waves.jpg");
 }
-.bold {
-  font-weight: bold;
-}
-.italy {
-  font-style: italic;
-}
 .clients {
   padding-top: 2rem;
   display: flex;
@@ -149,6 +186,10 @@ a {
   justify-content: center;
   align-content: space-around;
   gap: 2rem;
+  background-color: #F8DEB6;
+  /* background-color: #23190B; */
+  color: #23190B;
+  /* color: #F8DEB6; */
 }
 .client {
   border-bottom: 1px solid black;
@@ -167,11 +208,11 @@ a {
   text-align: center;
 }
 @media screen and (min-width: 800px) {
-  .publications {
+  .expertise {
     display: flex;
   }
   .tides {
-    padding: 3rem;
+    padding: 3rem 5rem 3rem 5rem;
   }
 }
 @media screen and (max-width: 800px) {
@@ -196,8 +237,11 @@ a {
   h3 {
     font-size: 3vw;
   }
-  p, li {
+  p {
     font-size: 2vw;
+  }
+  .p3, h4 {
+    font-size: 3vw;
   }
   .bio {
     display: block;
