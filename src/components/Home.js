@@ -25,9 +25,14 @@ class Home extends Component {
 	render() {
 		return (
 			<div className='home'>
-				<style>{'.nav-home { color: grey; }'}</style>
+				<style>
+					{/* {'.nav-home { color: #6AABD2; }'} */}
+					{'.nav-home::before{content: "「";}'}
+					{'.nav-home::after{content: "」";}'}
+					{'.nav-home{font-size: 1.5rem;}'}
+				</style>
 				<div className='home-image'>
-					<h1>Expertise in Action: Advancing Social Good</h1>
+					<h1>「Expertise in Action: Advancing Social Good」</h1>
 					<p className='p1'>
 						Sloan Social Impact Advisors undertakes short and longer term
 						consulting assignments for nonprofit organizations, foundations, and
@@ -98,17 +103,25 @@ class Home extends Component {
 				</div>
 				<div className='publications'>
 					<h3>Social Impact Publications by Alex Sloan</h3>
-					<div className='tides-photos'>
-						<div>
-							<img className='tides' src={TidesImage} alt='tides-publication' />
-							<p>
+					<div className='tides-container'>
+						<div className='tides-cards'>
+							<img
+								className='tides-image'
+								src={TidesImage}
+								alt='tides-publication'
+							/>
+							<p className='tides-text'>
 								Guide and workshop on using various types of capital to drive
 								social and/or financial impact
 							</p>
 						</div>
-						<div>
-							<img className='tides' src={TidesText} alt='tides-publication' />
-							<p>
+						<div className='tides-cards'>
+							<img
+								className='tides-image'
+								src={TidesText}
+								alt='tides-publication'
+							/>
+							<p className='tides-text'>
 								Review of how innovative corporations create social impact
 								programs
 							</p>

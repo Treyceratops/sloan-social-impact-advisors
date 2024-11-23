@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import AidsMemorial from '../images/aids-memorial-logo.png';
-import Humanity from '../images/humanity-united-logo.png';
+import Humanity from '../images/humanity-united-logo-blue.png';
 import Lookout from '../images/lookout-logo.svg';
 
 class ClientWork extends Component {
@@ -26,17 +26,26 @@ class ClientWork extends Component {
 	render() {
 		return (
 			<div className='client-works'>
-				<style>{'.nav-client-work { color: grey; }'}</style>
+				<style>
+					{/* {'.nav-client-work { color: #6AABD2; }'} */}
+					{'.nav-client-work::before{content: "「";}'}
+					{'.nav-client-work::after{content: "」";}'}
+					{'.nav-client-work{font-size: 1.5rem;}'}
+				</style>
 				<div className='client-work-image'>
-					<h1>Partnering with You to Create Positive Change</h1>
+					<h1>「Partnering with You to Create Positive Change」</h1>
 				</div>
 				<div className='clients'>
 					<div className='client'>
+						<h3 className='date0'>Recent Client Work</h3>
 						<a href='https://www.aidsmemorial.org/'>
-							<img src={AidsMemorial} alt='national-aids-memorial-logo' />
+							<img
+								className='aids-logo'
+								src={AidsMemorial}
+								alt='national-aids-memorial-logo'
+							/>
 						</a>
-						<h5>Recent Client Work</h5>
-						<p>
+						<p className='description'>
 							SSIA is designing a new national social justice leadership award
 							program for the National AIDS Memorial. Alex conducted a deep
 							research project interviewing over 35 stakeholders on the lessons
@@ -46,7 +55,7 @@ class ClientWork extends Component {
 							refresh for the organization.
 						</p>
 						<p>◽</p>
-						<p>
+						<p className='quote'>
 							<em>
 								“After Alex had served for years as a close friend and supporter
 								of the National AIDS Memorial, we asked him to take on a
@@ -65,12 +74,12 @@ class ClientWork extends Component {
 							- John Cunningham, CEO
 						</p>
 					</div>
-					<div className='client'>
-						<a href='https://humanityunited.org/'>
+					<div className='client humanity-section'>
+						<h3 className='date'>2024</h3>
+						<a className='humanity-logo' href='https://humanityunited.org/'>
 							<img src={Humanity} alt='humanity-united-logo' />
 						</a>
-						<h5>2024</h5>
-						<p>
+						<p className='description'>
 							SSIA managed a six-month assignment to help HU assess how to crowd
 							in additional resources to its key social impact areas, Forced
 							Labor & Human Trafficking and Peacebuilding. As part of the
@@ -80,7 +89,7 @@ class ClientWork extends Component {
 							facilitated several highly productive executive sessions.
 						</p>
 						<p>◽</p>
-						<p>
+						<p className='quote'>
 							<em>
 								"Sloan Social Impact Advisors did an outstanding job managing a
 								six-month assignment for us, where Alex played a crucial role in
@@ -98,11 +107,15 @@ class ClientWork extends Component {
 						</p>
 					</div>
 					<div className='client'>
+						<h3 className='date2'>2020-2021</h3>
 						<a href='https://www.lookout.com/'>
-							<img src={Lookout} alt='lookout-software-logo' />
+							<img
+								className='lookout-logo'
+								src={Lookout}
+								alt='lookout-software-logo'
+							/>
 						</a>
-						<h5>2020-2021</h5>
-						<p>
+						<p className='description'>
 							Alex was engaged by leading mobile device security software
 							provider Lookout to assess how to reboot Lookout’s stalled
 							corporate social impact program. After conducting a four-month
