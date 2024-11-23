@@ -36,8 +36,8 @@ class ClientWork extends Component {
 					<h1>「Partnering with You to Create Positive Change」</h1>
 				</div>
 				<div className='clients'>
-					<div className='client'>
-						<h3 className='date0'>Recent Client Work</h3>
+					<div className='client client-even'>
+						<h3 className='date-even'>Recent Client Work</h3>
 						<a href='https://www.aidsmemorial.org/'>
 							<img
 								className='aids-logo'
@@ -74,8 +74,8 @@ class ClientWork extends Component {
 							- John Cunningham, CEO
 						</p>
 					</div>
-					<div className='client humanity-section'>
-						<h3 className='date'>2024</h3>
+					<div className='client client-odd humanity-section'>
+						<h3 className='date-odd'>2024</h3>
 						<a className='humanity-logo' href='https://humanityunited.org/'>
 							<img src={Humanity} alt='humanity-united-logo' />
 						</a>
@@ -106,8 +106,8 @@ class ClientWork extends Component {
 							- Joel Beck-Coon, General Counsel, Humanity United Client
 						</p>
 					</div>
-					<div className='client'>
-						<h3 className='date2'>2020-2021</h3>
+					<div className='client client-even'>
+						<h3 className='date-even'>2020-2021</h3>
 						<a href='https://www.lookout.com/'>
 							<img
 								className='lookout-logo'

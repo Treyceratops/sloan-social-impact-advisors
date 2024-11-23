@@ -205,18 +205,40 @@ a {
 }
 .clients {
   padding-top: 3rem;
-  display: flex;
-  flex-wrap: wrap;
-  /* justify-content: center; */
-  align-content: space-between;
-  /* gap: 2rem; */
   background-color: #D9E4EC;
 }
-/* .clients h3{
-  text-align: left;
-} */
-.clients p {
+/* .clients h3:nth-child(odd) {
   padding-left: 2rem;
+  color: black;
+}
+
+.clients img:nth-child(odd) {
+  float: left;
+  padding: 0 1rem 0 2rem;
+}
+
+.clients h3:nth-child(even) {
+  padding-right: 2rem;
+  color: #D9E4EC;
+}
+
+.clients img:nth-child(even) {
+  float: right;
+  padding: 0 2rem 0 1rem;
+} */
+.client-even h3, 
+.client-even h3, 
+.client-even img, 
+.client-even img{
+  padding-left: 2rem;
+}
+.client-odd h3,
+.client-odd img {
+  padding-right: 2rem;
+  color: #D9E4EC;
+}
+.clients p {
+  padding: 0 4rem 2rem 4rem;
 }
 .description {
   color: #446FA0;
@@ -229,21 +251,14 @@ a {
 .quote {
   padding-bottom: 3rem;
 }
-.client {
-  width: 90%;
-}
-/* .client:not(:last-child) {
-  border-bottom: 1px solid black;
-} */
-.date {
+.date-odd {
   text-align: right;
 }
-.date0, .date2 {
+.date-even {
   text-align: left;
 }
 .clients img {
   width: 18rem;
-  /* float: left; */
   padding-right: 1rem;
 }
 .aids-logo, .lookout-logo {
