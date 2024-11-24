@@ -53,7 +53,7 @@ class Home extends Component {
 					</p>
 				</div>
 				<div className='expertises'>
-					<h3>Our areas of expertise include</h3>
+					<h3>Our areas of expertise include:</h3>
 					<div className='expertise'>
 						<div>
 							<h4>Strategy, market, and impact assessment studies</h4>
@@ -63,21 +63,21 @@ class Home extends Component {
 								assessments and provide recommendations to enhance
 								effectiveness.
 							</p>
-							<h5 className='bullet'>◽</h5>
+							<h5 className='bullet'>▤</h5>
 							<h4>Programmatic pilot development or assessment</h4>
 							<p>
 								Develop innovative programmatic pilots, assess and refresh
 								social impact programs, and coordinate philanthropic
 								multi-funder initiatives.
 							</p>
-							<h5 className='bullet'>◽</h5>
+							<h5 className='bullet'>▤</h5>
 							<h4>Fundraising for grant, equity or impact investments</h4>
 							<p>
 								Design or restructure grant/equity/debt fundraising programs and
 								teams to increase donor/investor engagement and support. Manage
 								complex nonprofit mergers and acquisitions.
 							</p>
-							<h5 className='bullet'>◽</h5>
+							<h5 className='bullet'>▤</h5>
 						</div>
 						<div>
 							<h4>Corporate Social Impact & Pledge 1% Initiatives</h4>
@@ -87,7 +87,7 @@ class Home extends Component {
 								grantmaking, employee volunteering, and product marketing to
 								nonprofit customers.
 							</p>
-							<h5 className='bullet'>◽</h5>
+							<h5 className='bullet'>▤</h5>
 							<h4>Coaching, mentoring, and interim leadership</h4>
 							<p>
 								Provide executive, leadership team, and/or board of directors

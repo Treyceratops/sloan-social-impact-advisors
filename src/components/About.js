@@ -51,9 +51,9 @@ class About extends Component {
 					<p className='p2 about-p2'>
 						Alex has spent his career advising, investing in, leading, and
 						successfully growing entrepreneurial for-profit and nonprofit
-						organizations to achieve financial and/or social impact. Alex has
-						held leadership roles across the social change landscape including
-						in venture capital, corporate social impact, private foundations,
+						organizations to achieve financial and/or social impact. He has held
+						leadership roles across the social change landscape including in
+						venture capital, corporate social impact, private foundations,
 						global public charities, nonprofit organizations, and US government
 						agencies. Alex has worked on and led teams that have raised and
 						deployed over $1 billion in investment and philanthropic capital. He
@@ -62,7 +62,6 @@ class About extends Component {
 					</p>
 					<div className='bio'>
 						<div className='bio-text'>
-							<h3>Leadership Development</h3>
 							<div className='z-container'>
 								<div className='about-logos'>
 									<a href='https://skoll.org/'>
@@ -70,6 +69,7 @@ class About extends Component {
 									</a>
 								</div>
 								<div className='p-card'>
+									<h3>Leadership Development</h3>
 									<p>
 										Alex has demonstrated a lifelong commitment to advancing
 										leadership skills and opportunities for adults working in
@@ -93,7 +93,6 @@ class About extends Component {
 									</p>
 								</div>
 							</div>
-							<h3>Foundation Leadership</h3>
 							<div className='z-container'>
 								<div className='right about-logos'>
 									<a href='http://excelerate-foundation.org/about.php'>
@@ -101,6 +100,7 @@ class About extends Component {
 									</a>
 								</div>
 								<div className='p-card'>
+									<h3>Foundation Leadership</h3>
 									<p>
 										Alex has served as founding Chairman and President of the{' '}
 										<a href='http://excelerate-foundation.org/about.php'>
@@ -120,10 +120,6 @@ class About extends Component {
 									</p>
 								</div>
 							</div>
-							<h3>
-								Leadership roles in corporate social Impact, foundation
-								management, and venture capital
-							</h3>
 							<div className='z-container'>
 								<div className='right about-logos'>
 									<a href='https://auth0.com/'>
@@ -140,6 +136,10 @@ class About extends Component {
 									</a>
 								</div>
 								<div className='p-card'>
+									<h3>
+										Leadership roles in corporate social Impact, foundation
+										management, and venture capital
+									</h3>
 									<p>
 										Alex served in several corporate social impact leadership
 										roles at leading identity security software companies{' '}

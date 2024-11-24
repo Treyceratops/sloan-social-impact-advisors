@@ -54,7 +54,7 @@ class ClientWork extends Component {
 							program. SSIA is also supporting a major brand and strategic
 							refresh for the organization.
 						</p>
-						<p>◽</p>
+						<div>▤</div>
 						<p className='quote'>
 							<em>
 								“After Alex had served for years as a close friend and supporter
@@ -71,7 +71,7 @@ class ClientWork extends Component {
 								and strategic impact positioning. Alex’s leadership, expertise,
 								and dedication have been critical to our progress.”
 							</em>{' '}
-							- John Cunningham, CEO
+							<br />- John Cunningham, CEO
 						</p>
 					</div>
 					<div className='client client-odd humanity-section'>
@@ -88,7 +88,7 @@ class ClientWork extends Component {
 							provided strategic recommendations to the leadership team. Alex
 							facilitated several highly productive executive sessions.
 						</p>
-						<p>◽</p>
+						<div>▤</div>
 						<p className='quote'>
 							<em>
 								"Sloan Social Impact Advisors did an outstanding job managing a
@@ -103,11 +103,11 @@ class ClientWork extends Component {
 								understanding of our opportunities, and he is a pleasure to work
 								with."
 							</em>{' '}
-							- Joel Beck-Coon, General Counsel, Humanity United Client
+							<br />- Joel Beck-Coon, General Counsel, Humanity United Client
 						</p>
 					</div>
 					<div className='client client-even'>
-						<h3 className='date-even'>2020-2021</h3>
+						<h3 className='date-even'>2019-2021</h3>
 						<a href='https://www.lookout.com/'>
 							<img
 								className='lookout-logo'
