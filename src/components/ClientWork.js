@@ -30,7 +30,7 @@ class ClientWork extends Component {
 					{/* {'.nav-client-work { color: #6AABD2; }'} */}
 					{'.nav-client-work::before{content: "「";}'}
 					{'.nav-client-work::after{content: "」";}'}
-					{'.nav-client-work{font-size: 1.5rem;}'}
+					{'.nav-client-work{font-size: 1.2rem;}'}
 				</style>
 				<div className='client-work-image'>
 					<h1>「Partnering with You to Create Positive Change」</h1>

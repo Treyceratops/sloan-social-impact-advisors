@@ -29,7 +29,7 @@ class Home extends Component {
 					{/* {'.nav-home { color: #6AABD2; }'} */}
 					{'.nav-home::before{content: "「";}'}
 					{'.nav-home::after{content: "」";}'}
-					{'.nav-home{font-size: 1.5rem;}'}
+					{'.nav-home{font-size: 1.2rem;}'}
 				</style>
 				<div className='home-image'>
 					<h1>「Expertise in Action: Advancing Social Good」</h1>
