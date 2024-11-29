@@ -1,30 +1,11 @@
 import React, { Component } from 'react';
-import PropTypes from 'prop-types';
 import AidsMemorial from '../images/aids-memorial-logo.png';
 import Humanity from '../images/humanity-united-logo-blue.png';
 import Lookout from '../images/lookout-logo.svg';
 
-class ClientWork extends Component {
-	constructor(props) {
-		super(props);
-	}
-
-	componentWillMount() {}
-
-	componentDidMount() {}
-
-	componentWillReceiveProps(nextProps) {}
-
-	shouldComponentUpdate(nextProps, nextState) {}
-
-	componentWillUpdate(nextProps, nextState) {}
-
-	componentDidUpdate(prevProps, prevState) {}
-
-	componentWillUnmount() {}
-
-	render() {
-		return (
+function ClientWork(props) {
+	return (
+		<div>
 			<div className='client-works'>
 				<style>
 					{'.nav-client-work::before{content: "「";}'}
@@ -130,10 +111,8 @@ class ClientWork extends Component {
 					</div>
 				</div>
 			</div>
-		);
-	}
+		</div>
+	);
 }
-
-ClientWork.propTypes = {};
 
 export default ClientWork;

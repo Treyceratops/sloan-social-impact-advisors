@@ -1,29 +1,10 @@
 import React, { Component } from 'react';
-import PropTypes from 'prop-types';
 import TidesImage from '../images/tides-image.png';
 import TidesText from '../images/tides-text.png';
 
-class Home extends Component {
-	constructor(props) {
-		super(props);
-	}
-
-	componentWillMount() {}
-
-	componentDidMount() {}
-
-	componentWillReceiveProps(nextProps) {}
-
-	shouldComponentUpdate(nextProps, nextState) {}
-
-	componentWillUpdate(nextProps, nextState) {}
-
-	componentDidUpdate(prevProps, prevState) {}
-
-	componentWillUnmount() {}
-
-	render() {
-		return (
+function Home(props) {
+	return (
+		<div>
 			<div className='home'>
 				<style>
 					{'.nav-home::before{content: "「";}'}
@@ -128,10 +109,37 @@ class Home extends Component {
 					</div>
 				</div>
 			</div>
-		);
-	}
+		</div>
+	);
 }
 
-Home.propTypes = {};
-
 export default Home;
+// class Home extends Component {
+// 	constructor(props) {
+// 		super(props);
+// 	}
+
+// 	componentWillMount() {}
+
+// 	componentDidMount() {}
+
+// 	componentWillReceiveProps(nextProps) {}
+
+// 	shouldComponentUpdate(nextProps, nextState) {}
+
+// 	componentWillUpdate(nextProps, nextState) {}
+
+// 	componentDidUpdate(prevProps, prevState) {}
+
+// 	componentWillUnmount() {}
+
+// 	render() {
+// 		return (
+
+// 		);
+// 	}
+// }
+
+// Home.propTypes = {};
+
+// export default Home;

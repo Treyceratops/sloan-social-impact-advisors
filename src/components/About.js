@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import PropTypes from 'prop-types';
 import Exclerate from '../images/excelerate-logo.png';
 import Okta from '../images/okta-logo.png';
 import AuthO from '../images/auth-o-logo.png';
@@ -11,27 +10,9 @@ import BioPic from '../images/Alex Sloan 22 A.jpg';
 import BioPicLowRes from '../images/11zon_resized.jpeg';
 import AlexBio from '../images/alex-bio.pdf';
 
-class About extends Component {
-	constructor(props) {
-		super(props);
-	}
-
-	componentWillMount() {}
-
-	componentDidMount() {}
-
-	componentWillReceiveProps(nextProps) {}
-
-	shouldComponentUpdate(nextProps, nextState) {}
-
-	componentWillUpdate(nextProps, nextState) {}
-
-	componentDidUpdate(prevProps, prevState) {}
-
-	componentWillUnmount() {}
-
-	render() {
-		return (
+function About(props) {
+	return (
+		<div>
 			<div className='about'>
 				<style>
 					{'.nav-about::before{content: "「";}'}
@@ -220,10 +201,8 @@ class About extends Component {
 					</div>
 				</div>
 			</div>
-		);
-	}
+		</div>
+	);
 }
-
-About.propTypes = {};
 
 export default About;

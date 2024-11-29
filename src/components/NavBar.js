@@ -1,29 +1,10 @@
 import React, { Component } from 'react';
-import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 import Logo from '../images/ssia-logo.png';
 
-class NavBar extends Component {
-	constructor(props) {
-		super(props);
-	}
-
-	componentWillMount() {}
-
-	componentDidMount() {}
-
-	componentWillReceiveProps(nextProps) {}
-
-	shouldComponentUpdate(nextProps, nextState) {}
-
-	componentWillUpdate(nextProps, nextState) {}
-
-	componentDidUpdate(prevProps, prevState) {}
-
-	componentWillUnmount() {}
-
-	render() {
-		return (
+function NavBar(props) {
+	return (
+		<div>
 			<div className='nav-bar space-between'>
 				<img className='logo' src={Logo} alt='sloan-social-impact-logo' />
 				<Link className='nav-home nav-link' to='/'>
@@ -43,10 +24,8 @@ class NavBar extends Component {
 					Contact
 				</a>
 			</div>
-		);
-	}
+		</div>
+	);
 }
-
-NavBar.propTypes = {};
 
 export default NavBar;
