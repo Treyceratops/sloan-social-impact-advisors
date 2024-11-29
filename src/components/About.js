@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Exclerate from '../images/excelerate-logo.png';
 import Okta from '../images/okta-logo.png';
 import AuthO from '../images/auth-o-logo.png';

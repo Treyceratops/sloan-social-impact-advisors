@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import TidesImage from '../images/tides-image.png';
 import TidesText from '../images/tides-text.png';
 
