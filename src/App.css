@@ -164,7 +164,7 @@ a {
   padding: 0 1.5rem 0 1.5rem;
   border-top-left-radius: 2rem;
   border-bottom-left-radius: 2rem;
-  border: 10px solid #446FA0;
+  border: 12px solid #51555B;
   box-shadow: inset 0px 0px 20px 0px rgba(0, 0, 0, 1);
   justify-content: space-around;
 }
@@ -337,6 +337,23 @@ a {
   .about-image {
     background-position: center;
   }
+  .flex-container1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 2rem;
+  }
+  .flex-container2 {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .z-container {
+    width: 46%;
+    flex-grow: 1;
+  }
+  .flex-p {
+    width: 40%;
+  }
 }
 @media screen and (max-width: 800px) {
   .nav-bar a {
@@ -404,7 +421,7 @@ a {
     width: 8rem;
   }
   .about-logos {
-    border: 10px solid #446FA0;
+    border: 8px solid #51555B;
   }
   .bio {
     padding: 2rem;
