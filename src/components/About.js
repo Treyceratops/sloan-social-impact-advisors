@@ -6,6 +6,7 @@ import AuthO from '../images/auth-o-logo.png';
 import Tides from '../images/tides-logo.png';
 import USAid from '../images/us-aid-logo.png';
 import Skoll from '../images/skoll-logo.png';
+import NYLF from '../images/nylf-logo.png';
 import BioPic from '../images/Alex Sloan 22 A.jpg';
 import BioPicLowRes from '../images/11zon_resized.jpeg';
 import AlexBio from '../images/alex-bio.pdf';
@@ -33,7 +34,6 @@ class About extends Component {
 		return (
 			<div className='about'>
 				<style>
-					{/* {'.nav-about { color: #6AABD2; }'} */}
 					{'.nav-about::before{content: "「";}'}
 					{'.nav-about::after{content: "」";}'}
 					{'.nav-about{font-size: 1.2rem;}'}
@@ -66,6 +66,9 @@ class About extends Component {
 								<div className='about-logos'>
 									<a href='https://skoll.org/'>
 										<img src={Skoll} alt='skoll-logo' />
+									</a>
+									<a href=''>
+										<img src={NYLF} alt='nylf-logo' />
 									</a>
 								</div>
 								<div className='p-card'>

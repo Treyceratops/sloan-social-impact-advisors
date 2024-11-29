@@ -26,7 +26,6 @@ class Home extends Component {
 		return (
 			<div className='home'>
 				<style>
-					{/* {'.nav-home { color: #6AABD2; }'} */}
 					{'.nav-home::before{content: "「";}'}
 					{'.nav-home::after{content: "」";}'}
 					{'.nav-home{font-size: 1.2rem;}'}

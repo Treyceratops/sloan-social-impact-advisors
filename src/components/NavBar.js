@@ -25,9 +25,6 @@ class NavBar extends Component {
 	render() {
 		return (
 			<div className='nav-bar space-between'>
-				{/* <h1 className='sloan-social-impact-advisors'>
-					Sloan Social Impact Advisors
-				</h1> */}
 				<img className='logo' src={Logo} alt='sloan-social-impact-logo' />
 				<Link className='nav-home nav-link' to='/'>
 					Home

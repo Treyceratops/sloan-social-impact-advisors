@@ -27,7 +27,6 @@ class ClientWork extends Component {
 		return (
 			<div className='client-works'>
 				<style>
-					{/* {'.nav-client-work { color: #6AABD2; }'} */}
 					{'.nav-client-work::before{content: "「";}'}
 					{'.nav-client-work::after{content: "」";}'}
 					{'.nav-client-work{font-size: 1.2rem;}'}
