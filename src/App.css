@@ -349,7 +349,7 @@ a {
   .home-image,
   .about-image,
   .client-work-image {
-    background-size: 110%;
+    background-size: 120%;
   }
   .home-image {
     padding: 6rem 0 6rem 0;
@@ -358,7 +358,7 @@ a {
     padding: 5rem 0 5rem 0;
   }
   .client-work-image {
-    padding: 8rem 0 8rem 0;
+    padding: 8rem 0 6rem 0;
   }
   a {
     font-size: 2vw;
