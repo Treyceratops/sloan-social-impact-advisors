@@ -391,6 +391,12 @@ a {
   .expertise {
     padding: 1rem;
   }
+  .z-container h3 {
+    padding-left: .5rem;
+  }
+  .z-container p {
+    padding: .5rem .5rem;
+  }
   .clients p {
     padding: 0 2rem 1rem 2rem;
   }
