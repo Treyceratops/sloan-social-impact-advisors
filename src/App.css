@@ -164,7 +164,7 @@ a {
   padding: 0 1.5rem 0 1.5rem;
   border-top-left-radius: 2rem;
   border-bottom-left-radius: 2rem;
-  border: 12px solid #51555B;
+  border: .3rem solid #51555B;
   box-shadow: inset 0px 0px 20px 0px rgba(0, 0, 0, 1);
   justify-content: space-around;
 }
@@ -244,7 +244,7 @@ a {
   color: #D9E4EC;
 }
 .clients p {
-  padding: 0 4rem 2rem 4rem;
+  padding: 0 4rem 1rem 4rem;
 }
 .description {
   color: #446FA0;
@@ -253,6 +253,9 @@ a {
 }
 .quote {
   padding-bottom: 3rem;
+}
+.bullet {
+  padding-bottom: 1rem;
 }
 .date-even, .date-odd {
   text-align: left;
@@ -420,9 +423,9 @@ a {
   .clients img {
     width: 8rem;
   }
-  .about-logos {
+  /* .about-logos {
     border: 8px solid #51555B;
-  }
+  } */
   .bio {
     padding: 2rem;
   }

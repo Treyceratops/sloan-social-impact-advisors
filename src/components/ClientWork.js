@@ -34,7 +34,7 @@ function ClientWork(props) {
 							program. SSIA is also supporting a major brand and strategic
 							refresh for the organization.
 						</p>
-						<div>▤</div>
+						<div className='bullet'>▤</div>
 						<p className='quote'>
 							<em>
 								“After Alex had served for years as a close friend and supporter
@@ -68,7 +68,7 @@ function ClientWork(props) {
 							provided strategic recommendations to the leadership team. Alex
 							facilitated several highly productive executive sessions.
 						</p>
-						<div>▤</div>
+						<div className='bullet'>▤</div>
 						<p className='quote'>
 							<em>
 								"Sloan Social Impact Advisors did an outstanding job managing a
