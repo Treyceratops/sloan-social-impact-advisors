@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import AidsMemorial from '../images/aids-memorial-logo.png';
 import Humanity from '../images/humanity-united-logo-blue.png';
 import Lookout from '../images/lookout-logo.svg';

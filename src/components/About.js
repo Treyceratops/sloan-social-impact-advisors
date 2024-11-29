@@ -48,9 +48,7 @@ function About(props) {
 									<a href='https://skoll.org/'>
 										<img src={Skoll} alt='skoll-logo' />
 									</a>
-									<a href=''>
-										<img src={NYLF} alt='nylf-logo' />
-									</a>
+									<img src={NYLF} alt='nylf-logo' />
 								</div>
 								<div className='p-card'>
 									<h3>Leadership Development</h3>

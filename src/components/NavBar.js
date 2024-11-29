@@ -20,7 +20,8 @@ function NavBar(props) {
 					className='nav-contact nav-link'
 					href='mailto:alex@sloansocialimpact.com'
 					subject='HTML link'
-					target='_blank'>
+					target='_blank'
+					rel='noreferrer'>
 					Contact
 				</a>
 			</div>
