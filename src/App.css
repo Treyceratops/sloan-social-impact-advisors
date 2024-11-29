@@ -344,7 +344,7 @@ a {
     font-size: 2.5vw;
   }
   .logo {
-    width: 8rem;
+    width: 6rem;
   }
   .home-image,
   .about-image,
@@ -382,7 +382,7 @@ a {
     background-position: right;
   }
   .tides-cards, .tides-image {
-    width: 12rem;
+    width: 10rem;
   }
   .media-container {
     width: 18rem;
