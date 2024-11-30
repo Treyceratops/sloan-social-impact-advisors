@@ -114,32 +114,3 @@ function Home(props) {
 }
 
 export default Home;
-// class Home extends Component {
-// 	constructor(props) {
-// 		super(props);
-// 	}
-
-// 	componentWillMount() {}
-
-// 	componentDidMount() {}
-
-// 	componentWillReceiveProps(nextProps) {}
-
-// 	shouldComponentUpdate(nextProps, nextState) {}
-
-// 	componentWillUpdate(nextProps, nextState) {}
-
-// 	componentDidUpdate(prevProps, prevState) {}
-
-// 	componentWillUnmount() {}
-
-// 	render() {
-// 		return (
-
-// 		);
-// 	}
-// }
-
-// Home.propTypes = {};
-
-// export default Home;
