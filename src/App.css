@@ -86,12 +86,12 @@ a {
   padding-top: 2rem;
 }
 .home-intro {
-  padding: 3rem;
+  padding: 1.5rem;
   background-color: #D9E4EC;
 }
 .expertises {
   background-color: #446FA0;
-  padding: 3rem 0 3rem 0;
+  padding: 1.5rem 0 1.5rem 0;
 }
 .expertises h4 {
   text-align: left;
@@ -103,7 +103,7 @@ a {
   padding: 0 3rem 0 3rem;
 }
 .publications {
-  padding: 3rem 0 3rem 0;
+  padding: 1.5rem 0 1.5rem 0;
   background-color: #D9E4EC;
 }
 .tides-container {
@@ -148,7 +148,7 @@ a {
   padding: 0 4rem 0 4rem;
 }
 .about-p2 {
-  padding: 3rem;
+  padding: 1.5rem;
 }
 .expertise p, .z-container p {
   text-align: left;
@@ -215,7 +215,7 @@ a {
   border-bottom-left-radius: 2rem;
 }
 .downloads h3 {
-  padding: 2rem 0 3rem 4rem;
+  padding: 1.5rem 0 3rem 4rem;
 }
 .download-links {
   padding: 3rem;

@@ -83,7 +83,7 @@ function ClientWork(props) {
 								understanding of our opportunities, and he is a pleasure to work
 								with."
 							</em>{' '}
-							<br />- Joel Beck-Coon, General Counsel, Humanity United Client
+							<br />- Joel Beck-Coon, General Counsel, Humanity United
 						</p>
 					</div>
 					<div className='client client-even'>
