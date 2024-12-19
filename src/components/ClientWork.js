@@ -87,7 +87,7 @@ function ClientWork(props) {
 						</p>
 					</div>
 					<div className='client client-even'>
-						<h3 className='date-even'>2019-2021</h3>
+						<h3 className='date-even'>2019-2020</h3>
 						<a href='https://www.lookout.com/'>
 							<img
 								className='lookout-logo'
